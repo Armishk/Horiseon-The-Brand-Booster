@@ -11,7 +11,7 @@ This website can be easily accessed via a URL found below.
 <img width="742" alt="Screenshot-2" src="https://github.com/Armishk/Horiseon-The-Brand-Booster/assets/134334179/14fc4f40-70bc-466d-bbf8-35af79abf7ac">
 
 ## Link
-
+https://armishk.github.io/Horiseon-The-Brand-Booster/
 ## Credits
 N/A
 ## License
