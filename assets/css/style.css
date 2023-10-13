@@ -1,13 +1,16 @@
+/* sets a box model for all elements */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* styles background color for entire page */
 body {
     background-color: #d9dcd6;
 }
 
+/* styles the spacing, font and color for header */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +18,18 @@ header {
     color: #ffffff;
 }
 
+/* styles h1 */
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* styles element class "seo" within h1 with specific color*/
 header h1 .seo {
     color: #d9dcd6;
 }
 
+/* styles the spacing, float, and font of nav links within header*/
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,24 +38,29 @@ header nav {
     font-size: 20px;
 }
 
+/* default bullet point list removed for nav links */
 header nav ul {
     list-style-type: none;
 }
 
+/* lists nav links as inline blocks */
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* styles specific color for nav links */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* font size for paragraphs */
 p {
     font-size: 16px;
 }
 
+/* styles the spacing, font, and color within hero section */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,6 +70,7 @@ p {
     background-position: center;
 }
 
+/* used to make elements float left & right */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -69,12 +81,14 @@ p {
     margin-left: 25px;
 }
 
+/* styles the spacing within content section */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* styles benefits sections' spacing, font, and color */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,6 +100,7 @@ p {
     background-color: #2589bd;
 }
 
+/* for cleaner code grouped and styled all similar named classes together */
 .benefit-lead, 
 .benefit-brand,
 .benefit-cost {
@@ -93,6 +108,7 @@ p {
     color: #ffffff;
 }
 
+/* styles the headings and images within benefit sections */
 .benefit-lead h3,
 .benefit-brand h3,
 .benefit-cost h3 {
@@ -108,6 +124,7 @@ p {
     max-width: 150px;
 }
 
+/* styles spacing, font, and color within service sections*/
 .search-engine-optimization,
 .online-reputation-management,
 .social-media-marketing {
@@ -119,12 +136,14 @@ p {
     color: #ffffff;
 }
 
+/* styles image height within service sections */
 .search-engine-optimization img,
 .online-reputation-management img,
 .social-media-marketing img {
     max-height: 200px;
 }
 
+/* styles headings within service sections */
 .search-engine-optimization h2, 
 .online-reputation-management h2,
 .social-media-marketing h2 {
@@ -132,6 +151,7 @@ p {
     font-size: 36px;
 }
 
+/* styles the footer */
 .footer {
     padding: 30px;
     clear: both;
